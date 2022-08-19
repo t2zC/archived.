@@ -1,0 +1,29 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/discord",
+      "destination": "https://discord.com/users/997930901776371782"
+    },
+    {
+      "source": "/bot",
+      "destination": "https://shiro.wtf"
+    },
+    {
+      "source": "/donate",
+      "destination": "https://paypal.me/verifiedRetard"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' sa.igna.ooo"
+        }
+      ]
+    }
+  ]
+}
