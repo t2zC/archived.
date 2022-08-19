@@ -4,14 +4,9 @@
  */
 
 const songs = [
-  "assets/songs/Bladee - Be Nice 2 Me.mp3",
-  "assets/songs/Bladee - I Think....mp3",
-  "assets/songs/Bladee - Trendy.mp3",
-  "assets/songs/Bladee, Ecco2k - Obedient.mp3",
-  "assets/songs/Bladee, Mechatok, Charli XCX - Drama.mp3",
-  "assets/songs/quinn - fake emotions.mp3",
-  "assets/songs/quinn - friend of the enemy.mp3",
-  "assets/songs/quinn, blackwinterwells - ok im cool.mp3",
+  "assets/songs/102601.mp3",
+  "assets/songs/2533.mp3",
+  "assets/songs/Ojitos Lindos.mp3",
 ];
 
 var audio = new Audio(songs[Math.floor(Math.random() * songs.length)]);
