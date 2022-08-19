@@ -6,7 +6,7 @@
 const songs = [
   "assets/songs/102601.mp3",
   "assets/songs/2533.mp3",
-  "assets/songs/Ojitos Lindos.mp3",
+  "assets/songs/Ojitos Lindos.mp3"
 ];
 
 var audio = new Audio(songs[Math.floor(Math.random() * songs.length)]);
